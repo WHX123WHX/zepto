@@ -18,5 +18,14 @@
 </head>
 <body>
 <div class="box"></div>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script>
+    $(function () {
+        $('.box').swipeLeft(function () {
+            alert('111');
+        });
+    });
+</script>
 </body>
 </html>
